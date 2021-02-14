@@ -11,9 +11,8 @@ function banner() {
 
 banner "Checking for newer files online."
 git pull
-# Below command will backup everything inside the project folder
-git add --all .
 
+# Below command will backup everything inside the project folder
 banner "Backing up everything in project folder."
 git add --all .
 
